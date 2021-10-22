@@ -110,10 +110,10 @@ def handle_message(event):
 
     if {inapropriate} in msg_from_user:
         dbs = mysql.connector.connect(
-            host="db4free.net",
-            user="kontlobot",
-            passwd="Dragoncit1234",
-            db="kontlobot")
+            host="#",
+            user="#",
+            passwd="#",
+            db="#")
 
         groupID = event.source.group_id
         userID = event.source.user_id
